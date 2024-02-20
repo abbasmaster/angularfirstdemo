@@ -16,7 +16,7 @@ import { ApiService } from './api.service';
 const routes: Routes = [
   { path: 'index', component: IndexComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'candidate/home', component: CandidateHomeComponent },
+  { path: 'candidate-home', component: CandidateHomeComponent },
   { path: '', redirectTo: '/index', pathMatch: 'full' },
   { path: '**', redirectTo: '/index', pathMatch: 'full' }
 ];
