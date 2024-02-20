@@ -1,0 +1,18 @@
+<!-- candidate-home.component.html -->
+<div>
+    <h2>Referral List</h2>
+    <div *ngFor="let referral of referralList">
+      <!-- Display referral details -->
+    </div>
+  </div>
+  <div>
+    <h2>Services</h2>
+    <div *ngFor="let service of servicesList">
+      <!-- Display service details -->
+    </div>
+  </div>
+  <div>
+    <app-search (search)="onSearch($event)"></app-search>
+    <button (click)="logout()">Logout</button>
+  </div>
+  

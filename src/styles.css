@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.css */
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Component-specific styles */
+  
+  /* index.component.css */
+  /* Add styles for the index component if needed */
+  
+  /* login.component.css */
+  form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* candidate-home.component.css */
+  /* Add styles for the candidate home component if needed */
+  
+  /* search.component.css */
+  input[type="text"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #28a745;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* list-card.component.css */
+  /* Add styles for the list card component if needed */
