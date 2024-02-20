@@ -10,8 +10,6 @@ export class AuthService {
 
   // Simulated login method
   login(username: string, password: string): boolean {
-    // In a real-world scenario, you would validate the credentials against a backend service
-    // For simplicity, we're using hardcoded values here
     if (username === 'admin' && password === 'password') {
       // Set user as logged in using local storage
       localStorage.setItem('loggedIn', 'true');
