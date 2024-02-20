@@ -7,7 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./list-card.component.css']
 })
 export class ListCardComponent implements OnInit {
-  @Input() items: any[];
+  @Input()
+    items: any[] = [];
 
   constructor() { }
 
